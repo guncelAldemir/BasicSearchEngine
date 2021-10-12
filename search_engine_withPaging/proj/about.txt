@@ -1,0 +1,4 @@
+This project is about the simple search engine like google.
+There is a home page and you can search any employee in the list that provided by api.
+Also. there is another page which user can explore their search item widely.
+There are order menu that user can sort their results and this project includes pagination of pages. 

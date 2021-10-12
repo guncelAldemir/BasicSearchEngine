@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: rgb(22, 14, 14);
+    margin-bottom: 50px;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+    
+}
+
+.containerboth {
+    padding-right: 15%;
+    margin-top: 20px;
+    max-width: 1400px;
+    text-align: center; 
+    border-style: double;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+#charactersList {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: auto-fit;
+    grid-gap: 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    padding-bottom: 5%;
+}
+
+.character {
+    list-style-type: none;
+    background-color: #fffefe;
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        'name'
+        'createdAt';
+    text-align: left;
+    border-bottom: solid;
+    max-width: 100%;
+}
+
+.character > h2 {
+    grid-area: name;
+    margin-bottom: 30px;
+}
+
+.character > p {
+    grid-area:createdAt;
+    margin: 0;
+    margin-top: 5px;
+}
+
+img {
+    border-radius: 20px;
+    padding-top: 10%;
+    padding-right: 10% ;
+  }
+
+input[type="text"]::placeholder { 
+    text-align: center;
+    font-size: 15px;
+}
+
+#searchwebapp{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 40%;
+    color: rgb(89, 89, 102);
+}
+
+#searchBar {
+    width: 85%;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-style: double;    
+
+}
+
+.searchbutton {
+    float: right;
+    width: 15%;
+    padding: 10px 10px;
+    background: #131b8d;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+.buttonshow {
+    float: center;
+    width: 15%;
+    padding: 10px 10px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+  }
+

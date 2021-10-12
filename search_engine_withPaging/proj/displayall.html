@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="displayall.css" />
+    </head>
+    <body>
+        <div class="container">
+            <p>
+                <a href="https://www.tesodev.com/">
+                    <img src="./tesodev.svg">
+                </a>     
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="Search anything"
+                    
+                />
+                <div class="container">
+                <button class="searchbutton" onclick="buttonclicked()" id="searchbutton" value="notclicked">Search</button>      
+            </div>
+            <div class="selection">
+                <select id="order_selection">
+                    <option value="">Order By</option>
+                    <option value="name_asc">Name Ascending</option>
+                    <option value="name_desc">Name Descending</option>
+                    <option value="year_asc">Year Ascending</option>
+                    <option value="year_desc">Year Descending</option>
+                  </select>
+                </div>
+            
+                <div class="containerboth">
+                   
+                    <ul id="charactersList">
+                         </ul>
+                         </div>
+                    
+                         <div id="pagination">
+                            
+                          </div>
+                        </div>
+        </div>
+        <script src="displayall.js"></script>  
+    </body>
+</html>

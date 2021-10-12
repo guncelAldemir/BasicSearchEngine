@@ -1,0 +1,4 @@
+Tasarım genel olarak google anasayfasını temel almakta ve ilk sayfada arama sonuçları girildikçe öneriler gösterilmesi gerekmekte.
+Sonrasında ise show more butonuna basıldığında 2. sayfaya geçip tüm arama sonucu görüntülenmeli.
+Bu sayfada (2. sayfa) dikkat edilmesi gereken pagination ve sort kısmı var ayrıca tekrar arama yapıldığında da sonuçların yeniden getirilmesi gerekmekte.
+
